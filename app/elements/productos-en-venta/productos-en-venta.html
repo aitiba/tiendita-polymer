@@ -1,0 +1,24 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="productos-en-venta">
+  <template>
+    <iron-ajax
+    auto
+    url="https://api.mercadolibre.com/sites/MLA/search?q=oferta"
+    handle-as="json"
+    last-response="{{data}}"
+    debounce-duration="300"></iron-ajax>
+
+    <p>{{data}}</p>
+  </template>
+
+  <script>
+  (function() {
+    'use strict';
+
+    Polymer({
+      is: 'productos-en-venta'
+    });
+  })();
+  </script>
+</dom-module>

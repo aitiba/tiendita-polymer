@@ -2,7 +2,7 @@
 
    Proceso de compra con google analythics y los datos de mercadolibre.com
 
-### INSTALATION
+### INSTALACIÓN
 
 * git clone https://github.com/aitiba/tiendita-polymer.git
 * cd tiendita-polymer
